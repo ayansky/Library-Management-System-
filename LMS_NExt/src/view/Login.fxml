@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <AnchorPane layoutX="496.0" layoutY="57.0" prefHeight="344.0" prefWidth="347.0" style="-fx-background-color: #01A9DB;" AnchorPane.rightAnchor="61.0">
+         <children>
+            <JFXTextField fx:id="txtUsername" accessibleRole="TEXT" blendMode="ADD" focusColor="#47c383" layoutX="48.0" layoutY="129.0" prefHeight="25.0" prefWidth="260.0" promptText="Username" unFocusColor="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="txtPassword" blendMode="ADD" focusColor="#4abc6e" layoutX="47.0" layoutY="178.0" prefHeight="25.0" prefWidth="260.0" promptText="Password" unFocusColor="#fffefe">
+               <font>
+                  <Font size="13.0" />
+               </font></JFXPasswordField>
+            <JFXButton layoutX="42.0" layoutY="249.0" onAction="#login" prefHeight="32.0" prefWidth="260.0" style="-fx-background-color: #E45652#81F7F3;" text="Sign In" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="lblLogin" alignment="CENTER" layoutX="48.0" layoutY="43.0" prefHeight="54.0" prefWidth="260.0" text="Sign In">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <ImageView fitHeight="493.0" fitWidth="524.0" layoutY="5.0" opacity="0.51" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@e.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="47.0" layoutY="172.0" prefHeight="78.0" prefWidth="407.0" text="Welcome to our Library!" textFill="#d3d3d3">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="251.0" prefHeight="64.0" prefWidth="372.0" text="Team Next Java provides some of the best Libraries&#10; featuring both online and offline issuing of textbooks." textFill="#e8e6e6">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+    
+         
+   </children>
+</AnchorPane>

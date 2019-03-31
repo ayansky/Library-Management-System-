@@ -1,0 +1,19 @@
+Login Page
+
+Two types of Log in:
+1) ADMIN
+2) MEMBER
+
+ADMIN can 
+add books
+remove books
+issue books
+add member
+remove member
+
+Search and Sort
+1) Book List
+2) Member List
+
+Book List: search and sorts in excel datasheet.
+Member List: search and sort in google's json database. 
